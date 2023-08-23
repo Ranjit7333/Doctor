@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+@import './assets/css/owl.carousel.min.css';
+.light-blue-backdrop {
+    background-color: #141f1f;
+    z-index: 1048 !important;
+
+}
+
+.dark-modal .modal-content {
+    background: rgb(221 221 221);
+    border-radius: 15px
+}
+
+.is-invalid {
+    border: 1px solid red;
+}
